@@ -4,40 +4,41 @@
 }
 
 #waybar {
-    background-color: transparent;
+    background-color: #282828;
 }
 
 #workspaces {
-    background-color: rgba(0, 0, 0, 1);
     margin: 2px 4px;
     border-radius: 5px;
+    /* border: 2px solid #fe8019; */
 }
 
 #workspaces button {
-    color: rgba(255, 255, 255, 1);
+    color: #ebdbb2;
     margin: 2px 4px;
     border-radius: 5px;
 }
 
 #workspaces button.empty {
     color: rgba(255, 0, 0, 1);
-    margin: 2px 4px;
-    border-radius: 5px;
 }
 
 #workspaces button.active {
     color: rgba(0, 255, 0, 1);
-    margin: 2px 4px;
-    border-radius: 5px;
 }
 
 #network,
 #clock,
+#battery,
 #memory,
 #pulseaudio,
 #cpu {
-    background-color: black;
-    color: white;
+    /*
+    border-color: #fe8019;
+    border-width: 2px;
+    */
+
+    color: #ebdbb2;
     margin: 2px 4px;
     border-radius: 5px;
     padding-left: 10px;
