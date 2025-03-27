@@ -25,6 +25,9 @@
         "format": "󰥔 {:%H:%M}",
     },
 
+    "battery": {
+        "format": " {capacity}%",
+    },
 
     "modules-left": [
         "hyprland/workspaces",
